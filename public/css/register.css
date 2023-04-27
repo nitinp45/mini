@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.icon{
+    color: blue;
+    font-size: 150%;
+}
+#account{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.btn{
+    width: 100%;
+}
+
+
+
