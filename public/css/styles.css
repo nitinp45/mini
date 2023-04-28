@@ -205,3 +205,84 @@
 
 
 }
+
+
+
+
+
+
+
+
+
+
+textarea{
+    height: 30vh;
+}
+
+.text-muted{
+   position: absolute;
+   bottom: 0;
+   width: 100vw;
+}
+
+.my-3{
+   position: relative;
+   
+}
+
+.loading{
+   position: absolute;
+   width: 100%;
+   height: 100%; 
+   z-index: 999;
+}
+
+.icon{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(112, 112, 112, 0.541);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   color: white;
+}
+
+@keyframes example {
+   from {transform: rotate(0);}
+   to {transform: rotate(360deg);}
+}
+
+.bi-arrow-clockwise{
+   animation: example .5s linear infinite;
+}
+
+.bi-clipboard , .bi-clipboard-check{
+ position: absolute;
+ bottom: 5px;
+ right: 10px;
+ color: grey;
+ font-size: 20px;
+ cursor: pointer;
+ padding: 2px;
+}
+
+.bi-clipboard:hover{
+ font-size: 22px;
+ transition: all .2s linear;
+ color: rgb(0, 0, 0);
+}
+
+.col-md{
+ position: relative;
+}
+
+@media screen and (min-width: 500px) {
+ 
+.ftr{
+ position: absolute;
+ bottom: 0;
+ width: 100vw;
+
+ }    
+}
